@@ -38,6 +38,9 @@
     font-weight: 500;
     border-bottom: 1px solid  grey;
 }
+.photo-title{
+    color: lightgreen;
+}
 
 .invited{
     margin-bottom: 20px;

@@ -12,7 +12,7 @@ export default function Popular() {
         return(
             <section className="blog">
              <div className="inside-container">
-             <h1 className="photo-title" ><span id="poular-blogs">Blogs</span></h1> 
+             <h1 className="photo-title" ><span id="poular-blogs">Projects</span></h1> 
                     <div className="blog-center">
                         {value.blogItems.map(item=>{
                             return(

@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 import Explore from './components/pages/explore_page/Explore';
 import Projects from './components/pages/projects_page/Projects';
 import Footer from './components/navbar/Footer';
+import ChallengeContainer from './components/pages/challenges_page/ChallengeContainer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Explore} />
         <Route exact path='/projects' component={Projects} />
+        <Route path='/actors' component={ChallengeContainer} />
       </Switch>
     <Footer />
   </>
