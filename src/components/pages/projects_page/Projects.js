@@ -1,5 +1,6 @@
 import React from 'react';
 import './projects.css';
+import Popular from './Popular';
 
 const Projects = () => (
 
@@ -28,10 +29,10 @@ const Projects = () => (
                     </div>
                     
                 </div>
-                <div className="projects-bottom">
+                {/* <div className="projects-bottom">
                 <h1 className="projects-bottom-text">There are currently no projects available</h1>
-                </div>
-                
+                </div> */}
+                <Popular />
             </div>
 );
 
