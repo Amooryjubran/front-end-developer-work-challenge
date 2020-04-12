@@ -16,14 +16,14 @@ export const ChallengeList = [
       
   },
   {
-    name: "COVID-19 Education System",
+    name: "COVID-19 Education",
     description: "This is the official Lab for the COVID-19 Education System Project Area. Coronaviruses are a large family of viruses. Some cause illness in people and others cause illness in animals. Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.",
     img_src: "https://preprmedialive.s3.ca-central-1.amazonaws.com/uploads/labs/mhbe71hanMLjDJFmP48evHhtm.png",
     profile_img: "https://preprmedialive.s3.ca-central-1.amazonaws.com/uploads/labs/mhbe71hanMLjDJFmP48evHhtm.png",
     url: "COVID-19"
   },
   {
-    name: "Artificial Intellegnece Lab",
+    name: "AI Lab",
     description: "Our mission is to build and support an open AI community, and drive open source innovation in the AI, ML and DL domains by enabling collaboration and the creation of new opportunities for all the members of the community",
     img_src: "https://preprmedialive.s3.ca-central-1.amazonaws.com/uploads/labs/Qd1dJfN5jtMvgKAdYYAnWXHQ2HVyIq7WFRKYlWiA.png",
     profile_img: "https://preprmedialive.s3.ca-central-1.amazonaws.com/uploads/labs/Qd1dJfN5jtMvgKAdYYAnWXHQ2HVyIq7WFRKYlWiA.png",

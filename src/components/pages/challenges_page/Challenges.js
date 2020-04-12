@@ -8,9 +8,9 @@ const Challenges = (props) => {
     
     let challenges = ChallengeList.map((challenge) =>{
         return (
-            <div className="actor-container">
-                <Link to={`/actors/${challenge.url}`} >
-                    <div className="actor-image" style={{ backgroundImage:"url(" + challenge.img_src + ")"  }} >
+            <div className="challenge-container">
+                <Link to={`/labs/${challenge.url}`} >
+                    <div className="challenge-image" style={{ backgroundImage:"url(" + challenge.img_src + ")"  }} >
 
                     </div>
                 </Link>
@@ -24,7 +24,7 @@ const Challenges = (props) => {
         
         <div className="main-content"> 
             <div><Link className="back" to="/" >Back</Link></div>
-                <h2>{props.title}</h2>
+                <h2 className="labs"><span className="span-lab">{props.title}</span></h2>
                 <div className="container" id="container-challenge">
                 {challenges}
                 

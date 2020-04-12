@@ -8,12 +8,12 @@ import Challenges from './Challenges'
 const ChallengeContainer = (props) =>  {
     let actrosUrl = ChallengeList.map((challenge) => {
         return (
-            <Route path={`/actors/${challenge.url}`} render={() => <Challenge image={challenge.profile_img} name={challenge.name} details={challenge.description}  />} />
+            <Route path={`/labs/${challenge.url}`} render={() => <Challenge image={challenge.profile_img} name={challenge.name} details={challenge.description}  />} />
         )
     });
     return (
         <>
-            <Route exact path="/actors" render={() => <Challenges title="LABS" />} />
+            <Route exact path="/labs" render={() => <Challenges title="LABS"  />} />
             {actrosUrl}
         </>
     )
