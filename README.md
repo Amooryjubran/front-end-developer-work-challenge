@@ -1,5 +1,5 @@
-This is a project for a front end developer position.
-Live Demo : https://preprnetwork.netlify.com
+- This is a project for a front end developer position.
+-Live Demo : https://preprnetwork.netlify.com
 
 ## Front End Developer Work Challenge for PREPR.ORG:
 Your task is to redesign a few key pages of the Prepr Network.
