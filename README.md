@@ -13,6 +13,10 @@ Reimagine and create frontend webpages of the following pages (and possible sub-
 - Labs page (https://preprlabs.org/joinedLab)
 
 
+I made these webpages (to see changes, click on Explore, Challenges, or Projects)  :
+- Made the same explore page as the original website.
+- Redesigned the challenges page, and it has it's own components for each challenge.
+- Redesigned the projects page.
 
 
 
